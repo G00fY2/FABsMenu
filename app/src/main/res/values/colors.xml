@@ -25,4 +25,5 @@
     <color name="blue_semi_pressed">#738ffe</color>
     <color name="green">#4caf50</color>
     <color name="green_pressed">#388e3c</color>
+    <color name="holo_dark_background">#303030</color>
 </resources>

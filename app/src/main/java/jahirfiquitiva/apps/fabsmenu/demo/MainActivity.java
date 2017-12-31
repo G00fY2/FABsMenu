@@ -18,6 +18,7 @@ package jahirfiquitiva.apps.fabsmenu.demo;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.DividerItemDecoration;
@@ -95,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         TitleFAB green = findViewById(R.id.green_fab);
+        green.setTitleBackgroundColor(ContextCompat.getColor(this, R.color.holo_dark_background));
         green.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
